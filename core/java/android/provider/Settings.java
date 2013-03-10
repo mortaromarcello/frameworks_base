@@ -2264,6 +2264,18 @@ public final class Settings {
         public static final String POINTER_SPEED = "pointer_speed";
 
         /**
+        * Select your preferred hdmi display resolution
+        * @hide
+        */
+        public static final String HDMI_RESOLUTION = "hdmi_resolution";
+
+		/**
+		 * To use default or special accelerometer coordinate system
+		 * @hide
+		 */
+		 public static final String ACCELEROMETER_COORDINATE = "accelerometer_coordinate";
+
+        /**
          * Whether national data roaming should be used.
          * @hide
          */
